@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { NavigationStack } from 'navigation/navigation';
-import { store, persistor } from './src/reducers/store/index';
+import { store, persistor } from 'reducers/store';
 import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
 

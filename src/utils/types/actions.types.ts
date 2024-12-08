@@ -1,4 +1,4 @@
-import { TYPES } from '../../actions/types';
+import { TYPES } from 'actions/types';
 
 export type Action<T, D = undefined> = D extends undefined
   ? { type: T }

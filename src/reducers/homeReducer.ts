@@ -1,5 +1,5 @@
-import { TYPES } from '../actions/types';
-import { HomeActions } from '../utils/types/actions.types';
+import { TYPES } from 'actions/types';
+import { HomeActions } from 'utils/types/actions.types';
 
 export interface HomeStateType {
   status: null | string;
